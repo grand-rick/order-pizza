@@ -1,0 +1,94 @@
+.main {
+    width: 100%;
+}
+
+body {
+    background-color:  #000;;
+    color: #009e66;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+}
+
+#input {
+    display: none;  
+}
+
+#value1 {
+    width: 500px;
+    height: 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+#btn, #btn1 {
+    width: 40%;
+    margin-top: 1.5%;
+    height: fit-content;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 2.5em;
+    font-style: italic;
+    position: relative;
+    left: 30%;
+
+}
+
+#btn:hover, #btn1:hover {
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 0 10px 5px #555;
+    transition: 0.5s;
+}
+
+@media (max-width: 1084px) {
+    #btn, #btn1 {
+        width: 38%;
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 2em;
+    }
+    #btn, #btn1 {
+        width: 30%;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 840px) {
+    #btn, #btn1 {
+        width: 25%;
+        font-size: 1em;
+        margin: 1.5% auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

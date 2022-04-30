@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pizza</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Start of header section-->
+    <header id="header">
+        <h1>Hello, This is P.K's Restaurant.</h1>
+    </header>
+
+    <div class="main">
+        <p class="content">
+            Welcome to my restaurant, we sell slices of pizza for a living. <br> A very fulfilling  economic activity.
+        </p>
+
+        
+
+        <div>
+            <!-- onclick="location.reload()" -->
+        <button id="btn1">
+            Click to Order
+        </button>
+        </div>
+
+        <!-- onkeyup="order()" onchange="order()" -->
+
+        <p id="input">
+            <label for="">How many slices of pizza would you like?</label> <br>
+            <input type="number" id="value1" placeholder="quantity" max="20" min="1" required>
+        </p>
+
+        <div>
+        <button id="btn" onclick="order(quantity)">
+            Click to Submit Order
+        </button>
+        </div>
+    </div>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <!-- <p id="demo3"></p> -->
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
